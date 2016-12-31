@@ -1,5 +1,5 @@
 # shangfu-pay
-上福支付 for node.js
+上福支付 for node.js test版本
 
 ## Usage
 
