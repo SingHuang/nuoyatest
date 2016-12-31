@@ -1,0 +1,23 @@
+{
+  "name": "shangfu-pay",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "lint": "node_modules/.bin/eslint ./src",
+    "test": "node_modules/.bin/eslint ./src",
+    "build": "node_modules/.bin/babel src -d dist",
+    "compile": "node_modules/.bin/babel src -d dist",
+    "prepublish": "npm run compile"
+  },
+  "author": "SimonHuang",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "MD5": "^1.2.1",
+    "request": "^2.54.0"
+  },
+  "devDependencies": {
+    "babel": "^4.6.0"
+  }
+}
